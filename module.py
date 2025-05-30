@@ -19,7 +19,7 @@ with open("student_marks.csv", "w", newline='') as f:
     ]
     writer.writerows(data)
 
-# Reading
+# Reading file
 with open("student_marks.csv", "r") as f:
     reader = csv.reader(f)
     print(type(reader), type(f), type("hello"), type(45))
