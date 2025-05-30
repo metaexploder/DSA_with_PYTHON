@@ -1,0 +1,18 @@
+INFO:root:Program started
+ERROR:root:Error occurred: division by zero
+2025-04-18 19:58:19,159 - ERROR - Missing questions.json file.
+2025-04-18 20:05:20,059 - ERROR - Missing questions.json file.
+2025-04-18 20:05:37,000 - ERROR - Missing questions.json file.
+2025-04-18 20:13:52,678 - ERROR - Missing questions.json file.
+2025-04-18 20:14:36,353 - ERROR - Missing questions.json file.
+2025-04-18 21:38:05,338 - ERROR - Missing questions.json file.
+INFO:root:Program started
+ERROR:root:Error occurred: division by zero
+INFO:root:Program started
+ERROR:root:Error occurred: division by zero
+INFO:root:Program started
+ERROR:root:Error occurred: division by zero
+INFO:root:Program started
+ERROR:root:Error occurred: division by zero
+INFO:root:Program started
+ERROR:root:Error occurred: division by zero
