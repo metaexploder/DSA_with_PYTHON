@@ -1,7 +1,2 @@
-arr = [1, 4]
-brr = [6, 0]
-if arr < brr:
-    print(True)
-else:
-    print(False)
-print(arr, brr)
+print("Hello world")
+print("Just verifing that the github editor works on vs code also ")
