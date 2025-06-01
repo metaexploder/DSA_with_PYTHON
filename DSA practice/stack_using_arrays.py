@@ -6,7 +6,7 @@ class Stack:
         self.stack.append(data)
     
     def display(self):
-        print(i for i in self.stack)
+        print(self.stack)
 
 s = Stack()
 for i in [3, 5, 7]:
