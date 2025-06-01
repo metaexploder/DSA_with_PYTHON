@@ -1,32 +1,28 @@
 # ----- my code but it have some issue below this code the correct code by chatgpt
 class Stack:
-    def __init__(self, length):
-        self.stack = [None for _ in range(length)]
-        self.length = length
-        self.top = -1
-
+    def __init__(self, size):
+        self.stack = []
+        self.size = size
+        self.top = - 1
 
     def push(self, data):
-        if not s.isFull():
-            self.stack[self.top + 1] = data
+        if self.isFull():
+            return print("Stack Overflow Error")
+        else:
             self.top += 1
-            return True
-        return print("Stack Overflow")
+            return self.stack.append(data)
         
-
     def pop(self):
-        if s.isEmpty():
-            return print("Stack Underflow")
-        self.stack.remove(self.stack[self.top])
-        self.stack.insert(self.top, None)
-        self.top -= 1
-        print("Top:", self.stack[self.top])
-
+        if self.isEmpty():
+            return print("Stack Underflow error")
+        else:
+            ele = self.stack[self.top]
+            self.stack.pop(self.top)
+            self.top -= 1
+            return print(ele, "is popped")
         
-    
     def display(self):
-        print(self.stack)
-        #print(*(self.stack[i] for i in range(len(self.stack))))
+        return print(self.stack)
 
     def peek(self):
         if self.top < 0:
@@ -34,22 +30,28 @@ class Stack:
         print(self.stack[self.top])
 
     def isFull(self):
-        if self.top >= self.length - 1:
-            return True
+        return self.top >= self.size - 1
     
     def isEmpty(self):
-        if self.top == -1:
-            return True
-
+        return self.top == -1
+    
 
 
 s = Stack(5)
-# for i in [3, 5, 7, 1]:
-#     s.push(i)
+for item in [2, 3, 4, 5, 6]:
+    s.push(item)
+
 s.display()
-s.peek()
 s.pop()
 s.display()
+s.pop()
+s.push(9)
+s.display()
+s.push(0)
+s.display()
+s.peek()
+
+
 
 # ------------ chat gpt corrected code ----
 # class Stack:

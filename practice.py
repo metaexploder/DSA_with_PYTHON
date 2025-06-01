@@ -1,10 +1,4 @@
-print("Hello world")
-
-
-
-
-
-
+print("Hello World!")
 
 #git status
 #git add . or specific file
