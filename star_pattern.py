@@ -40,46 +40,15 @@ create.increment(5)
 
 
 
-# # *****
-# #  ***
-# #   *
-# rows = 3
-
-# for i in range(rows , 0, -1):
-#     spaces = " " * (rows - i)
-#     stars = '*' * (2 * i - 1)
-#     print(spaces + stars + spaces)
 
 
-
-
-# #   *  
-# #  ***
-# # *****
-# rows = 3  # Number of rows
-
-# for i in range(1, rows + 1):
-#     spaces = ' ' * (rows - i)  # Leading dashes
-#     stars = '*' * (2 * i - 1)  # Stars for the current row
-#     print(spaces + stars + spaces)  # Construct and print the row
-
-
-
-
-# *
-# **
-# ***
-# n = 5
-# for i in range(n):
-#     for j in range(n - i - 1, n):
-#         print("*", end="")
-#     print("")
-    
-# n = 5
-# for i in range(5):
-#     stars = "*" * i
-#     print(stars)
-
+# cd path/to/your/project
+# git init
+# git add .
+# git commit -m "Initial commit"
+# git remote add origin "GIT REPO HTTPS LINK"
+# git branch -M main
+# git push -u origin main
 
 
 #git status
