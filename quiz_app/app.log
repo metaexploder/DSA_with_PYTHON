@@ -65,3 +65,9 @@
 2025-04-21 10:43:46,585 - INFO - Question: 'Who developed Python?' | Answered in 5.14 seconds | Correct: True
 2025-04-21 10:43:52,975 - INFO - Question: 'which language used in this code?' | Answered in 6.39 seconds | Correct: False
 2025-04-21 10:43:52,992 - INFO - Quiz completed and results saved.
+2025-06-13 12:34:20,403 - INFO - Quiz started.
+2025-06-13 12:34:37,156 - INFO - Question: 'What is the capital of India?' | Answered in 16.74 seconds | Correct: True
+2025-06-13 12:34:41,417 - INFO - Question: 'What is 5 + 7?' | Answered in 4.26 seconds | Correct: False
+2025-06-13 12:34:48,615 - INFO - Question: 'Who developed Python?' | Answered in 7.2 seconds | Correct: False
+2025-06-13 12:34:53,517 - INFO - Question: 'which language used in this code?' | Answered in 4.9 seconds | Correct: True
+2025-06-13 12:34:53,517 - INFO - Quiz completed and results saved.

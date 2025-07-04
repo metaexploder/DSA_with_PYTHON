@@ -16,3 +16,5 @@ INFO:root:Program started
 ERROR:root:Error occurred: division by zero
 INFO:root:Program started
 ERROR:root:Error occurred: division by zero
+2025-06-13 12:33:36,597 - ERROR - Missing questions.json file.
+2025-06-13 12:33:49,354 - ERROR - Missing questions.json file.
